@@ -21,4 +21,4 @@ This lab consists of a Zabbix Server deployed on an Ubuntu Server virtual machin
 
 ## Network Topology
 
-[Insert ../diagrams/network-topology.png]
+![Network Topology](../diagrams/network-topology.png)
