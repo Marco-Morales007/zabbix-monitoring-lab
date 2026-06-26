@@ -39,11 +39,11 @@ The lab monitors Windows and Linux endpoints using Zabbix agents and documents t
 
 ## Documentation
 
-- Architecture
-- Installation
-- Monitoring
-- Troubleshooting
-- Lessons Learned
+- [Architecture](docs/architecture.md)
+- [Installation Guide](docs/installation.md)
+- [Monitoring Configuration](docs/monitoring.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Lessons Learned](docs/lessons-learned.md)
 
 
 ## Technologies Used
