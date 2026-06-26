@@ -39,11 +39,13 @@ The lab monitors Windows and Linux endpoints using Zabbix agents and documents t
 
 ## Documentation
 
-- [Architecture](docs/architecture.md)
-- [Installation Guide](docs/installation.md)
-- [Monitoring Configuration](docs/monitoring.md)
-- [Troubleshooting](docs/troubleshooting.md)
-- [Lessons Learned](docs/lessons-learned.md)
+| Document | Description |
+|----------|-------------|
+| [Architecture](docs/architecture.md) | Infrastructure design and network layout. |
+| [Installation](docs/installation.md) | Environment deployment steps. |
+| [Monitoring](docs/monitoring.md) | Hosts, templates, triggers and dashboards. |
+| [Troubleshooting](docs/troubleshooting.md) | Problems encountered and their solutions. |
+| [Lessons Learned](docs/lessons-learned.md) | Key concepts and takeaways from the project. |
 
 
 ## Technologies Used
