@@ -1,22 +1,61 @@
 # Troubleshooting
 
-## Problem 1: MySQL Service Stopped
+## Problem 1: MySQL Service Was Not Running
 
 ### Symptoms
 
-Unable to connect using:
+- The Zabbix web interface was unavailable.
+- The MySQL service appeared as inactive.
 
-mysql
+```bash
+sudo systemctl status mysql.service
+```
+
+Output:
+
+```
+Active: inactive (dead)
+```
 
 ### Investigation
 
-- Checked service status
-- Reviewed logs
-- Restarted VM
+The service was installed correctly but was not running after the virtual machine restarted. Since Zabbix depends on MySQL, the monitoring platform could not function properly.
 
 ### Resolution
 
-After rebooting the VM, MySQL started correctly.
+1. Verified the current service status.
+
+```bash
+sudo systemctl status mysql.service
+```
+
+2. Enabled the service to start automatically at boot.
+
+```bash
+sudo systemctl enable mysql.service
+```
+
+3. Restarted the service.
+
+```bash
+sudo systemctl restart mysql.service
+```
+
+4. Verified that the service was running successfully.
+
+```bash
+sudo systemctl status mysql.service
+```
+
+Expected result:
+
+```
+Active: active (running)
+```
+
+### Outcome
+
+After the MySQL service was restored, the Zabbix Server was able to access its database and the web interface became operational again.
 
 ---
 
