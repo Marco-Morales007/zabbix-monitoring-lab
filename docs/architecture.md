@@ -17,7 +17,7 @@ This lab consists of a Zabbix Server deployed on an Ubuntu Server virtual machin
 
 ## Architecture Diagram
 
-[Insert architecture.png]
+![Architecture](../diagrams/architecture.png)
 
 ## Network Topology
 
