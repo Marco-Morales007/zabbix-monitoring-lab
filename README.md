@@ -24,7 +24,7 @@ The lab monitors Windows and Linux endpoints using Zabbix agents and documents t
 
 ## Screenshots
 
-### Graph Example
+### Dashboard Example
 
 ![Dashboard](screenshots/dashboard.png)
 
@@ -42,7 +42,6 @@ The lab monitors Windows and Linux endpoints using Zabbix agents and documents t
 | Document | Description |
 |----------|-------------|
 | [Architecture](docs/architecture.md) | Infrastructure design and network layout. |
-| [Installation](docs/installation.md) | Environment deployment steps. |
 | [Monitoring](docs/monitoring.md) | Hosts, templates, triggers and dashboards. |
 | [Troubleshooting](docs/troubleshooting.md) | Problems encountered and their solutions. |
 | [Lessons Learned](docs/lessons-learned.md) | Key concepts and takeaways from the project. |
