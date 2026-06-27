@@ -192,6 +192,9 @@ SET passwd = 'BCRYPT_HASH'
 WHERE alias = 'Admin';
 ```
 
+Note: The password value is a bcrypt hash generated before executing the SQL statement. Plain-text passwords cannot be stored directly in the passwd column.
+
+
 5. Logged into the Zabbix frontend using the new credentials.
 
 Expected result:
@@ -203,4 +206,4 @@ Admin account unlocked and accessible.
 
 The administrator account was successfully recovered without reinstalling the application or modifying configuration files. This exercise also provided practical experience managing Zabbix users directly through MySQL and understanding how password hashes are stored using the bcrypt algorithm.
 
-Note: The password value is a bcrypt hash generated before executing the SQL statement. Plain-text passwords cannot be stored directly in the passwd column.
+```
