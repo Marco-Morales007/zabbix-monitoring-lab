@@ -24,7 +24,7 @@ The lab monitors Windows and Linux endpoints using Zabbix agents and documents t
 
 ## Screenshots
 
-### Dashboard
+### Graph Example
 
 ![Dashboard](screenshots/dashboard.png)
 
